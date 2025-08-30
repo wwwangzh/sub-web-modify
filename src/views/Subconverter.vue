@@ -338,6 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
+          "自建后端": "https://subconverter-sg.onrender.com",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -347,6 +348,7 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
+          { value: "https://subconverter-sg.onrender.com" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -356,9 +358,22 @@ export default {
           { value: "https://api.wcc.best" },
         ],
         remoteConfig: [
+           {
+            label: "WOK规则",
+            options: [
+              {
+                label: "WOK 默认分流规则",
+                value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/wwangxa-all.ini"
+              }
+            ]
+          },
           {
             label: "CM规则",
             options: [
+              {
+                label: "CM_Online 默认版 识别港美地区(与Github同步)",
+                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
+              }，
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
@@ -1310,3 +1325,4 @@ export default {
   }
 };
 </script>
+
