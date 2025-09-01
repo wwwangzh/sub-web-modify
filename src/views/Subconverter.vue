@@ -364,16 +364,16 @@ export default {
               {
                 label: "WOK 默认分流规则",
                 value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/wwangxa-all.ini"
+              },
+              {
+                label: "WOK - 默认版 识别港美地区(与Github同步) + 自定义proxy+direct规则",
+                value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/cm/w-cm-defalut.ini"
               }
             ]
           },
           {
             label: "CM规则",
             options: [
-              {
-                label: "CM_Online 默认版 识别港美地区(与Github同步)",
-                value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
-              },
               {
                 label: "CM_Online 默认版 识别港美地区(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini"
@@ -1325,5 +1325,6 @@ export default {
   }
 };
 </script>
+
 
 
