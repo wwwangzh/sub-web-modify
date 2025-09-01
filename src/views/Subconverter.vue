@@ -359,15 +359,15 @@ export default {
         ],
         remoteConfig: [
           {
-            label: "WOK规则",
+            label: "WOK 规则",
             options: [
-              {
-                label: "WOK 默认分流规则",
-                value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/wwangxa-all.ini"
-              },
               {
                 label: "WOK - 默认版 识别港美地区(与Github同步) + 自定义proxy+direct规则",
                 value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/cm/w-cm-defalut.ini"
+              },
+              {
+                label: "WOK - 自用 - 自定义分流规则",
+                value: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/wwangxa-all.ini"
               }
             ]
           },
@@ -1325,6 +1325,7 @@ export default {
   }
 };
 </script>
+
 
 
 
