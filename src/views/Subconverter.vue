@@ -336,15 +336,15 @@ export default {
           "d1.mk": "https://d1.mk/short",
           "dlj.tf": "https://dlj.tf/short",
           "suo.yt": "https://suo.yt/short",
-        },
+        }，
         customBackend: {
           "自建后端": "https://subconverter-sg.onrender.com",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
           "肥羊备用后端【vless reality+hy1+hy2】": "https://sub.d1.mk",
-          nameless13提供: "https://www.nameless13.com",
-          subconverter作者提供: "https://sub.xeton.dev",
+          nameless13提供: "https://www.nameless13.com"，
+          subconverter作者提供: "https://sub.xeton.dev"，
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
@@ -393,7 +393,7 @@ export default {
               {
                 label: "CM_Online_Full_CF 识别多地区、CloudFlareCDN 分组 Worker节点专用(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_CF.ini"
-              },
+              }，
               {
                 label: "CM_Online_Full_MultiMode 识别多地区 负载均衡(与Github同步)",
                 value: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_Full_MultiMode.ini"
@@ -744,52 +744,52 @@ export default {
               {
                 label: "Maying",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/maying.ini"
-              },
+              }，
               {
                 label: "Ytoo",
                 value: "https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/ytoo.ini"
-              },
+              }，
               {
                 label: "w8ves",
                 value: "https://raw.nameless13.com/api/public/dl/M-We_Fn7/w8ves.ini"
-              },
+              }，
               {
                 label: "NyanCAT",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/nyancat.ini"
-              },
+              }，
               {
                 label: "Nexitally",
                 value: "https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/nexitally.ini"
-              },
+              }，
               {
                 label: "SoCloud",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/socloud.ini"
-              },
+              }，
               {
                 label: "ARK",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/customized/ark.ini"
-              },
+              }，
               {
                 label: "N3RO",
                 value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/n3ro_optimized.ini"
-              },
+              }，
               {
                 label: "Scholar",
                 value: "https://gist.githubusercontent.com/tindy2013/1fa08640a9088ac8652dbd40c5d2715b/raw/scholar_optimized.ini"
-              },
+              }，
               {
-                label: "Flowercloud",
+                label: "Flowercloud"，
                 value: "https://subweb.s3.fr-par.scw.cloud/RemoteConfig/customized/flower.ini"
               }
             ]
-          },
+          }，
           {
-            label: "特殊",
+            label: "特殊"，
             options: [
               {
                 label: "NeteaseUnblock",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/netease.ini"
-              },
+              }，
               {
                 label: "Basic",
                 value: "https://raw.githubusercontent.com/SleepyHeeead/subconverter-config/master/remote-config/special/basic.ini"
@@ -797,33 +797,33 @@ export default {
             ]
           }
         ]
-      },
+      }，
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://url.v1.mk" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subconverter-sg.onrender.com" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
-        excludeRemarks: "",
+        remoteConfig: "https://raw.githubusercontent.com/wwwangzh/ACL4SSR-RULE/refs/heads/main/cm/w-cm-defalut.ini"，
+        excludeRemarks: ""，
         includeRemarks: "",
-        filename: "",
-        rename: "",
+        filename: ""，
+        rename: ""，
         devid: "",
         interval: "",
-        emoji: true,
-        nodeList: false,
+        emoji: true，
+        nodeList: false，
         extraset: false,
         tls13: false,
-        udp: false,
-        xudp: false,
+        udp: false，
+        xudp: false，
         tfo: false,
         sort: false,
-        expand: true,
-        scv: false,
+        expand: true，
+        scv: false，
         fdn: false,
         appendType: false,
-        insert: false, // 是否插入默认订阅的节点，对应配置项 insert_url
-        new_name: true, // 是否使用 Clash 新字段
+        insert: false， // 是否插入默认订阅的节点，对应配置项 insert_url
+        new_name: true， // 是否使用 Clash 新字段
         tpl: {
           surge: {
             doh: false // dns 查询是否使用 DoH
@@ -1325,6 +1325,7 @@ export default {
   }
 };
 </script>
+
 
 
 
